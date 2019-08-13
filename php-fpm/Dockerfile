@@ -293,7 +293,7 @@ RUN if [ ${INSTALL_MONGO} = true ]; then \
 # Xhprof:
 ###########################################################################
 
-ARG INSTALL_XHPROF=false
+ARG INSTALL_XHPROF=true
 
 RUN if [ ${INSTALL_XHPROF} = true ]; then \
     # Install the php xhprof extension
